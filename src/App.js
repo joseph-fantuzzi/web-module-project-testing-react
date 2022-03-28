@@ -3,17 +3,19 @@ import React from "react";
 import Display from "./components/Display";
 
 export default function App() {
-  const displayFunc = (data)=> {
+  const displayFunc = (data) => {
     console.log(data);
-  }
+  };
 
   return (
     <div>
       <nav className="navbar navbar-dark bg-dark">
-        <a className="navbar-brand" href="#">Integration Testing Challenge</a>
+        <a className="navbar-brand" href="#">
+          Integration Testing Challenge
+        </a>
       </nav>
       <div className="App">
-        <Display displayFun={displayFunc}/>
+        <Display displayFunc={displayFunc} />
       </div>
     </div>
   );

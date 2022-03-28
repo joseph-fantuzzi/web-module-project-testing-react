@@ -55,4 +55,3 @@ test("component renders when no seasons are selected and when rerenders with a s
   episodes = screen.queryByTestId("episodes-container");
   expect(episodes).toBeInTheDocument();
 });
-1;
