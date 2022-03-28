@@ -6,7 +6,7 @@ import Episode from "./../Episode";
 const testEpisode = {
   id: 1,
   name: "",
-  image: "http://static.tvnaze.com/uploads/images/edium_landscape/67/168918.jpg",
+  image: "https://static.tvmaze.com/uploads/images/medium_landscape/342/855788.jpg",
   season: 1,
   number: 1,
   summary: "test summary",
